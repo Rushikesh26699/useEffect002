@@ -1,0 +1,59 @@
+.SearchBox{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.SearchBox input{
+    height: 35%;
+    width: 45%;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+.SearchBox button{
+    height: 30%;
+    width: 25%;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.SearchBox button:hover{
+    cursor: pointer;
+}
+@media only screen and (min-width:768px) and (max-width:950px) {
+    .SearchBox{
+        /* background-color: aqua; */
+    width: 80%;
+
+    }
+}
+@media only screen and (min-width:560px) and (max-width:768px){
+    .SearchBox{
+        /* background-color: aqua; */
+    width: 90%;
+
+    }
+    .SearchBox input{
+        font-size: 1rem;
+    }
+    .SearchBox button{
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width:319px) and (max-width:560px){
+    
+    .SearchBox{
+
+        /* background-color: aqua; */
+    width: 100%;
+
+    }
+    .SearchBox input{
+        font-size: 1rem;
+    }
+    .SearchBox button{
+        font-size: .8rem;
+    }
+}
